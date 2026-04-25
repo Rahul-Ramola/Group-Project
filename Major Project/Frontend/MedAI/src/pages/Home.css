@@ -1,0 +1,136 @@
+.home {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.hero-badge {
+  display: inline-block;
+  background-color: #eff6ff;
+  color: #3b82f6;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 18px;
+  border: 1px solid #bfdbfe;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.2;
+  margin-bottom: 14px;
+  letter-spacing: -0.5px;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  color: #64748b;
+  max-width: 520px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+.hero-warning {
+  display: inline-block;
+  background-color: #fffbeb;
+  border: 1px solid #fde68a;
+  color: #92400e;
+  font-size: 13px;
+  padding: 8px 18px;
+  border-radius: 8px;
+}
+
+/* Tools */
+.tools-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.tools-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tool-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 20px;
+  transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
+}
+
+.tool-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-color: #cbd5e1;
+  transform: translateY(-2px);
+}
+
+.tool-emoji-box {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.tool-emoji {
+  font-size: 26px;
+}
+
+.tool-info {
+  flex: 1;
+}
+
+.tool-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.tool-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.tool-tag {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.tool-desc {
+  font-size: 14px;
+  color: #64748b;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.tool-link {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media (max-width: 560px) {
+  .hero-title { font-size: 26px; }
+  .tool-card { flex-direction: column; gap: 12px; }
+}
